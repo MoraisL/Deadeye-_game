@@ -1,4 +1,4 @@
-from jogo.main import turno
+from main import turno
 from cowboys.tipos import CowboyFactory
 from jogo.observer import Observador
 
