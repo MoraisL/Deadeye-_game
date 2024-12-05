@@ -1,4 +1,4 @@
-# 🤠 Cowboys Bebolas
+# 🤠 Deadeye game
 
 Cowboys Bebolas é um jogo de combate por turnos desenvolvido para rodar no console. Ele permite que dois jogadores (ou um jogador contra a IA) escolham cowboys com habilidades únicas e se enfrentem até que apenas um permaneça de pé. O projeto utiliza cinco padrões de design para garantir um código modular, fácil de entender e pronto para extensões futuras.
 
