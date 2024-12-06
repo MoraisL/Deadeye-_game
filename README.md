@@ -58,10 +58,77 @@ Cowboys Bebolas é um jogo de combate por turnos desenvolvido para rodar no cons
    - O jogo mantém a pontuação dos jogadores usando o **Singleton Pattern**.
    - O progresso pode ser salvo e carregado a qualquer momento com o **Memento Pattern**.
 
+Aqui está o README atualizado com as instruções completas de execução, incluindo o uso de um ambiente virtual (`venv`) e a instalação de dependências:
+
 ## 🛠️ Como Executar
 
-1. Extraia o projeto do arquivo ZIP.
-2. Abra o terminal ou prompt de comando e navegue até a pasta do projeto.
-3. Execute o jogo com:
+### 1. Preparar o Ambiente
+
+1. Certifique-se de ter o [Python 3.10 ou superior](https://www.python.org/downloads/) instalado em sua máquina.
+2. Extraia o projeto do arquivo ZIP.
+3. Abra o terminal ou prompt de comando e navegue até a pasta do projeto.
+
+### 2. Criar e Ativar o Ambiente Virtual
+
+1. Crie um ambiente virtual:
+   ```bash
+   python -m venv venv
+   ```
+2. Ative o ambiente virtual:
+   - **Windows**:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **Linux/Mac**:
+     ```bash
+     source venv/bin/activate
+     ```
+
+### 3. Instalar Dependências
+
+1. Com o ambiente virtual ativado, instale as dependências necessárias:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### 4. Executar o Jogo
+
+1. Ainda no terminal, execute o arquivo principal para iniciar o jogo:
    ```bash
    python main.py
+   ```
+
+---
+
+## 🧪 Como Executar os Testes
+
+1. Certifique-se de que o ambiente virtual esteja ativado (veja a etapa anterior).
+2. Navegue até a pasta de testes:
+   ```bash
+   cd tests
+   ```
+3. Execute os testes com o `pytest`:
+   ```bash
+   pytest
+   ```
+
+   - Para desabilitar a captura de saída e permitir interação com `stdin`, use:
+     ```bash
+     pytest -s
+     ```
+
+---
+
+## 🚀 Notas Adicionais
+
+- Sempre ative o ambiente virtual antes de executar o jogo ou os testes.
+- Se precisar instalar novas dependências, use `pip install` e atualize o arquivo `requirements.txt` com:
+  ```bash
+  pip freeze > requirements.txt
+  ```
+- Para desativar o ambiente virtual, use:
+  ```bash
+  deactivate
+  ```
+
+# Boa diversão!
