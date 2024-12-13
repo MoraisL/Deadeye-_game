@@ -1,7 +1,10 @@
 # 🤠 Deadeye game
 
-Cowboys Bebolas é um jogo de combate por turnos desenvolvido para rodar no console. Ele permite que dois jogadores (ou um jogador contra a IA) escolham cowboys com habilidades únicas e se enfrentem até que apenas um permaneça de pé. O projeto utiliza cinco padrões de design para garantir um código modular, fácil de entender e pronto para extensões futuras.
+Deadeye game é um jogo de combate por turnos desenvolvido para rodar no console. Ele permite que dois jogadores (ou um jogador contra a IA) escolham cowboys com habilidades únicas e se enfrentem até que apenas um permaneça de pé. O projeto utiliza cinco padrões de design para garantir um código modular, fácil de entender e pronto para extensões futuras.
 
+
+# Link com a explicação e apresentação do projeto:
+- https://sesisenaispedu-my.sharepoint.com/:v:/g/personal/rafael_ribeiro35_senaisp_edu_br/EdGfdPCroxFGtJNbbw8mkVABCCNLLFg3-DV8cHb3uFTPPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sdUASm
 ## 🎯 Estrutura do Projeto
 
 - **main.py**: Arquivo principal que gerencia o fluxo do jogo, exibe o menu e inicia as partidas.
